@@ -1,0 +1,60 @@
+html {
+    font-family: 'Mina', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2em;
+}
+
+.headertop {
+    background-color: #FF2A00;
+    color: white;
+    text-align: center;
+}
+
+.headermiddle {
+    /*display: table-cell;*/
+    vertical-align: middle;
+    background-color: #190800;
+    color: white;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #190800;
+    color: white;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer hr {
+    border: 0;
+    height: 2px;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+
+}
+
+footer p {
+    color: white;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

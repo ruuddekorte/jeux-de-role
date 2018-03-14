@@ -1,0 +1,22 @@
+{
+  "name": "jeux-de-role_s19",
+  "version": "1.0.0",
+  "description": "jeux de role - héros vs monstres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruuddekorte/jeux-de-role.git"
+  },
+  "author": "R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruuddekorte/jeux-de-role/issues"
+  },
+  "homepage": "https://github.com/ruuddekorte/jeux-de-role#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
