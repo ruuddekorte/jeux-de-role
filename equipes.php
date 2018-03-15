@@ -20,33 +20,50 @@
     
     <!-- Le corps de page -->
 
-	<main>
-	    <section id="body-content">
-
-			<h1>Le choc des Simploniens !</h1>
-		        
-		    <pre>
-                    	Créez vos équipes
-
-    Les héros                                          Les monstres
-
-    Personnage 1 :                                     Personnage 1 :
-    Nom * :              Type * :                      Nom * :              Type * :
-
-    Personnage 2 :                                     Personnage 2 :
-    Nom * :              Type * :                      Nom * :              Type * :
-
-    Personnage 3 :                                     Personnage 3 :
-    Nom * :              Type * :                      Nom * :              Type * :
-
-    Tous les champs munis d’une * sont obligatoires
-
-                                                                         [Commencer]	
-
-    	     </pre>
-
-	    </section>
-	</main>
+<main class="row">
+	<div class="col-lg-12 col-sm-12">
+		       <h1>Créez vos équipes</h1>
+			    <h2></h2>
+    </div> 
+    
+    <div class="col-lg-1 col-sm-0"> &nbsp; </div>
+    	<div class="col-lg-5 col-sm-12">	
+        <div class="row"> 
+       		<div class="col-lg-12"><h2>Les Héros</h2></div> 
+       		<div class="col-sm-12 col-lg-12">Personnage 1 :</div>
+       		<div class="col-sm-12 col-lg-5">Nom :</div>
+       		<div class="col-sm-12 col-lg-5">Type :</div>
+       		<div class="col-sm-12 col-lg-12">Personnage 2 :</div>
+       		<div class="col-sm-12 col-lg-5">Nom :</div>
+       		<div class="col-sm-12 col-lg-5">TYpe :</div>
+       		<div class="col-sm-12 col-lg-12">Personnage 3 :</div>
+       		<div class="col-sm-12 col-lg-5">Nom :</div>
+       		<div class="col-sm-12 col-lg-5">Type :</div>
+       		<div class="col-lg-12"> &nbsp; </div> 
+       		<div class="col-lg-12">Tout les champs munis d'une(*) sont obligatoires</div> 
+       		<div class="col-lg-12"> &nbsp; </div> 
+    	</div>
+	</div>
+    <div class="col-lg-5 col-sm-12">	
+    	<div class="row"> 
+       		<div class="col-lg-12"><h2>Les Monstres</h2></div> 
+       		<div class="col-sm-12 col-lg-12">Personnage 1 :</div>
+       		<div class="col-sm-12 col-lg-5">Nom :</div>
+       		<div class="col-sm-12 col-lg-5">Type :</div>
+       		<div class="col-sm-12 col-lg-12">Personnage 2 :</div>
+       		<div class="col-sm-12 col-lg-5">Nom :</div>
+       		<div class="col-sm-12 col-lg-5">TYpe :</div>
+       		<div class="col-sm-12 col-lg-12">Personnage 3 :</div>
+       		<div class="col-sm-12 col-lg-5">Nom :</div>
+       		<div class="col-sm-12 col-lg-5">Type :</div>
+       		<div class="col-lg-12">  &nbsp; </div> 
+       		<div class="col-lg-12 right"> <a href="combat.php"><button type="button" class="btn btn-secondary btn-lg start">[ Commencer ]</button></a>
+       		</div> 
+       		<div class="col-lg-12"> &nbsp; </div> 
+      	</div>
+    </div>
+    <div class="col-lg-1 col-sm-0"> &nbsp; </div>
+</main>
 
     <!-- Le pied de page -->
     
