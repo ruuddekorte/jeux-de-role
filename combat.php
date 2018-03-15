@@ -15,8 +15,8 @@
 </head>
 <body>
 	
-	<?php include("page-header.php"); ?>
-	<?php include("page-menu.php"); ?>     <!-- temporary for testing links and interaction -->
+	<?php include("includes/page-header.php"); ?>
+	<?php include("includes/page-menu.php"); ?>     <!-- temporary for testing links and interaction -->
     
     <!-- Le corps de page -->
 
@@ -65,7 +65,7 @@ neque.
 
     <!-- Le pied de page -->
     
-	<?php include("page-footer.php"); ?>
+	<?php include("includes/page-footer.php"); ?>
 
 
 	<script type="text/javascript" src="js/jquery.js"></script>

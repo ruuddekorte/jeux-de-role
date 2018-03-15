@@ -16,24 +16,32 @@
 </head>
 <body>
 
-	<?php include("page-header.php"); ?>
-	<?php include("page-menu.php"); ?>     <!-- temporary for testing links and interaction -->
+	<?php include("includes/page-header.php"); ?>
     
     <!-- Le corps de page -->
 
-	<main>
-	    <section id="body-content">
+	<main class="row welcome-image">
+		<div class="col-lg-1">&nbsp;</div>
+		<div class="col-lg-10">
+				<div class="col-lg-12 high-80">&nbsp;</div>
+				<div class="col-lg-12">
+					<section class="welcome-screen">
 
-			<h1>Le choc des Simploniens !</h1>
-		        
-		    <p> [ Commencer le combat ] </p>
+						<h1>Le choc des Simploniens !</h1>
+					        <h1>&nbsp;</h1>
+					    <h2><a href="equipes.php"><button type="button" class="btn btn-secondary btn-lg start"> [ Commencer le combat ] </button></a></h2>
 
-	    </section>
+				    </section>
+				</div>
+				<div class="col-lg-12 high-80">&nbsp;</div>
+	    </div>
+	    <div class="col-lg-1">&nbsp;</div>
+		
 	</main>
 
     <!-- Le pied de page -->
     
-	<?php include("page-footer.php"); ?>
+	<?php include("includes/page-footer.php"); ?>
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
