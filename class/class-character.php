@@ -26,25 +26,30 @@
 *    multipliés par 1.5 	**niveau 2**
 */
 
-class Caractere
+class Character
 
 {
 	private $name="";
-	private $type="";     // type : Elfe, Gobelin, Guerrier, MageNoir, Magicien, 
-						  //        Nain, OmbreNoir, Orque, Sauron.
-	private $side="";     // côté :hero ou monstre
-	private $forceMin=;   // attaque-Minimum
-	private $forceMax=;   // attaque-maximum
-	private $health=;     // points de vie
-	private $specialty="" // Spécialité : Elfe, Gobelin, Guerrier, MageNoir, 
-	                      //              Magicien, Nain, OmbreNoir, Orque
+	private $type="";        // type : Elfe, Gobelin, Guerrier, MageNoir, Magicien, 
+						     //        Nain, OmbreNoir, Orque, Sauron.
+	protected $side="";      // côté :hero ou monstre
+	protected $forceMin=;    // attaque-Minimum
+	protected $forceMax=;    // attaque-maximum
+	protected $level=1;	     // basic level (niveau) raise 1 after each kill
+	protected $health=;      // points de vie
+	protected $specialty=""  // Spécialité : Elfe, Gobelin, Guerrier, MageNoir, 
+	                         //              Magicien, Nain, OmbreNoir, Orque
 
 
-	public function attaque($cible){
+	public function attaque($target){
 
 		$attack=rand ($forceMin, $forceMax);    // choose force of attack, 
 												// random  between min and max force
-		if ($this->specialty==$cible->type){
+		if ($this->level!=1); {
+			$attack+=50*(this->level-1)
+		}			// 
+
+		if ($this->specialty==$target->type){
 				$attack*=1,5;
 		}						// if target equals specialty; attack * 1,5
 
@@ -56,10 +61,8 @@ class Caractere
 				$this->forceMax=300; 
 		}						// if mage and healt less then 100 , than max attxk 300
 
-
-
-			$cible->health-=$attack;
-			echo $cible->sante()."<br />";
+			$target->health-=$attack;
+			echo $target->sante()."<br />";
 		}
 
 	public function __construct($name){
@@ -68,7 +71,10 @@ class Caractere
 
 	public function sante(){
 		if ($this->health>=0){
-			echo "stats for : ".$this->name.", attack : ".$this->attack."pts, health : ".$this->health." pts.<br />";
+			echo $this->name." attaque ".$target."<br />";
+			echo "Coup porté "$attack."<br />";
+			echo "stats for : ".$this->name.", attack : ".$this->attack."pts, health : ".$this->health." pts.<br />
+				list Nom Type Niveau Vie for heros and monsters<br />";
 		} else {
 			echo $this->name." has perished.<br />";
 		}

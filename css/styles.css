@@ -1,10 +1,12 @@
 html {
     font-family: 'Mina', sans-serif;
     font-size: 62.5%;
+    /*font-size: 18px;*/
 }
 
 body {
-    font-size: 2em;
+   /* font-size: 62.5%;*/
+    font-size: 1.5em;
 }
 
 header {
@@ -91,4 +93,10 @@ footer a:hover {
     min-height: 100px;
     padding: 2em 0;
     text-align: center;
+}
+input { 
+    /*height: 2em;*/ 
+}
+select { 
+    /*font-size: 2em;*/ 
 }

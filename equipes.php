@@ -26,35 +26,35 @@
     
     <div class="col-lg-1 col-sm-0"> &nbsp; </div>
     	<div class="col-lg-5 col-sm-12">	
-        <form>
-          <div class="input-group input-group-lg">
+        <form class="form-inline">
+          <div class="input-group">
             <div class="row"> 
            		<div class="col-lg-12"><h2>Les Héros</h2></div> 
            		<div class="col-sm-12 col-lg-12">Personnage 1 :</div>
-           		<div class="col-sm-12 col-lg-5">Nom* :<input id="hero1" type="text" name="" /></div>
-           		<div class="col-sm-12 col-lg-5">Type* :<select class="form-control .input-lg" id="sel1">
-                                    <option>Magicien</option>
-                                    <option>Elfe</option>
-                                    <option>Nain</option>
-                                    <option>Guerrier</option>
+           		<div class="col-sm-12 col-lg-5">Nom* :<br /><input id="hero1" type="text" class="form-control" /></div>
+           		<div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel1" />
+                                    <option value="magicien">Magicien</option>
+                                    <option value="elfe">Elfe</option>
+                                    <option value="nain">Nain</option>
+                                    <option value="guerrier">Guerrier</option>
                                   </select></div>
 
 
            		<div class="col-sm-12 col-lg-12">Personnage 2 :</div>
-           		<div class="col-sm-12 col-lg-5">Nom* :<input id="hero2" type="text" name="" /></div>
-           		<div class="col-sm-12 col-lg-5">Type* :<select class="form-control" id="sel2">
-                                    <option>Magicien</option>
-                                    <option>Elfe</option>
-                                    <option>Nain</option>
-                                    <option>Guerrier</option>
+           		<div class="col-sm-12 col-lg-5">Nom* :<br /><input id="hero2" type="text"  class="form-control" /></div>
+           		<div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel2">
+                                    <option value="magicien">Magicien</option>
+                                    <option value="elfe">Elfe</option>
+                                    <option value="nain">Nain</option>
+                                    <option value="guerrier">Guerrier</option>
                                   </select></div>
            		<div class="col-sm-12 col-lg-12">Personnage 3 :</div>
-           		<div class="col-sm-12 col-lg-5">Nom* :<input id="hero3" type="text" name="" /></div>
-           		<div class="col-sm-12 col-lg-5">Type* :<select class="form-control" id="sel3">
-                                    <option>Magicien</option>
-                                    <option>Elfe</option>
-                                    <option>Nain</option>
-                                    <option>Guerrier</option>
+           		<div class="col-sm-12 col-lg-5">Nom* :<br /><input id="hero3" type="text"  class="form-control" /></div>
+           		<div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel3">
+                                   <option value="magicien">Magicien</option>
+                                    <option value="elfe">Elfe</option>
+                                    <option value="nain">Nain</option>
+                                    <option value="guerrier">Guerrier</option>
                                   </select></div>
            		<div class="col-lg-12"> &nbsp; </div> 
            		<div class="col-lg-12"><h6>les champs munis d'une(*) sont obligatoires</h6></div> 
@@ -67,34 +67,31 @@
     	<div class="row"> 
        		<div class="col-lg-12"><h2>Les Monstres</h2></div> 
        		<div class="col-sm-12 col-lg-12">Personnage 1 :</div>
-       		<div class="col-sm-12 col-lg-5">Nom* :<input id="monstre1" type="text" name="" /></div>
-       		<div class="col-sm-12 col-lg-5">Type* :<select class="form-control" id="sel4">
-                                <option>MageNoir</option>
-                                <option>Orque</option>
-                                <option>Gobelin</option>
-                                <option>OmbreNoir</option>
-                                <option>Orque</option>
-                                <option>Sauron</option>
+       		<div class="col-sm-12 col-lg-5">Nom* :<br /><input id="monstre1" type="text"  class="form-control" /></div>
+       		<div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel4">
+                                <option value="magenoir">Mage Noir</option>
+                                <option value="orque">Orque</option>
+                                <option value="gobelin">Gobelin</option>
+                                <option value="ombrenoir">Ombre Noir</option>
+                                <option value="sauron">Sauron</option>
                               </select></div>
        		<div class="col-sm-12 col-lg-12">Personnage 2 :</div>
-       		<div class="col-sm-12 col-lg-5">Nom* :<input id="monstre1" type="text" name="" /></div>
-       		<div class="col-sm-12 col-lg-5">Type* :<select class="form-control" id="sel5">
-                                <option>MageNoir</option>
-                                <option>Orque</option>
-                                <option>Gobelin</option>
-                                <option>OmbreNoir</option>
-                                <option>Orque</option>
-                                <option>Sauron</option>
+       		<div class="col-sm-12 col-lg-5">Nom* :<br /><input id="monstre1" type="text" class="form-control"  /></div>
+       		<div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel5">
+                                <option value="magenoir">Mage Noir</option>
+                                <option value="orque">Orque</option>
+                                <option value="gobelin">Gobelin</option>
+                                <option value="ombrenoir">Ombre Noir</option>
+                                <option value="sauron">Sauron</option>
                               </select></div>
        		<div class="col-sm-12 col-lg-12">Personnage 3 :</div>
-       		<div class="col-sm-12 col-lg-5">Nom* :<input id="monstre1" type="text" name="" /></div>
-       		<div class="col-sm-12 col-lg-5">Type* :<select class="form-control" id="sel6">
-                                <option>MageNoir</option>
-                                <option>Orque</option>
-                                <option>Gobelin</option>
-                                <option>OmbreNoir</option>
-                                <option>Orque</option>
-                                <option>Sauron</option>
+       		<div class="col-sm-12 col-lg-5">Nom* :<br /><input id="monstre1" type="text" class="form-control"  /></div>
+       		<div class="col-sm-12 col-lg-5">Type* :<br /><select class="custom-select" id="sel6">
+                                <option value="magenoir">Mage Noir</option>
+                                <option value="orque">Orque</option>
+                                <option value="gobelin">Gobelin</option>
+                                <option value="ombrenoir">Ombre Noir</option>
+                                <option value="sauron">Sauron</option>
                               </select></div>
        		<div class="col-lg-12">  &nbsp; </div> 
        		<div class="col-lg-12 right"> <a href="combat.php"><button type="button" class="btn btn-secondary btn-lg start">[ Commencer ]</button></a>
