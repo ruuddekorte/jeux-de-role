@@ -28,7 +28,7 @@
 					<section class="welcome-screen">
 
 						<h1>Le choc des Simploniens !</h1>
-					        <h1>&nbsp;</h1>
+					        <h2>&nbsp;</h2>
 					    <h2><a href="equipes.php"><button type="button" class="btn btn-secondary btn-lg start"> [ Commencer le combat ] </button></a></h2>
 
 				    </section>
@@ -43,7 +43,7 @@
     
 	<?php include("includes/page-footer.php"); ?>
 
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>

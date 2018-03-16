@@ -19,7 +19,7 @@
     
     <!-- Le corps de page -->
 
-	<main class="row">
+	<main class="row main-fond-vert">
 	    <div class="col-lg-12 col-sm-12 banner img-combat"></div>
 	    
 
@@ -30,9 +30,22 @@
 		    <section id="body-content">
 
 				<h1>Le Déroulement du combat!</h1>
-			       	<p><button type="button" class="btn btn"> Action 1</button><strong>
+
+					<div id="accordion">
+					  <div class="card">
+					    <div class="card-header" id="headingOne">
+
+					         <p><button type="button" class="btn btn btn-contour"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Action 1</button><strong>
 			       	Gandalf</strong> attaque <strong>Sarouman</strong></p>
-			       	<h5>Coup porté : 25</h5>
+					        </button>
+
+					    </div>
+
+					    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					      <div class="card-body">
+
+
+			       	<h5>Coup porté : <strong>25</strong></h5>
 	                <div class="row"> 
 				  	  	<div class="col-lg-6 col-sm-12">       		
 			  				<div class="row">
@@ -87,39 +100,158 @@
 			           		<div class="col-sm-4 col-lg-2">100% </div>
 			           	</div>
 			        </div>
+		    	</div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingTwo">
+					      <p><button type="button" class="btn btn btn-contour collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo""> Action 2 </button> <strong>Sarouman</strong> attaque <strong>Gandalf</strong></p>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					      <div class="card-body">
 
-			  		<div class="col-lg-6 col-sm-12">
-		       			<div class="row">
+			       	<h5>Coup porté : <strong>25</strong></h5>
+	                <div class="row"> 
+				  	  	<div class="col-lg-6 col-sm-12">       		
+			  				<div class="row">
+				           		<div class="col-sm-12 col-lg-12">Héros :</div>
+				            
+				           		<div class="col-sm-12 col-lg-6"><strong>Nom</strong></div>
+				           		<div class="col-sm-4 col-lg-2"><strong>Type</strong></div>
+				                <div class="col-sm-4 col-lg-2"><strong>Niveau</strong></div>
+				           		<div class="col-sm-4 col-lg-2"><strong>Vie</strong></div>
 
-					  		<div class="col-lg-12 col-sm-12">
-						       	<p><button type="button" class="btn btn"> Action 2 </button><strong>Sarouman</strong> attaque <strong>Gandalf</strong></p>
-						       	<h5>Coup porté : <strong>25</strong></h5>
-						       	<h5> &nbsp; </h5>
-						    </div>
-				       </div>
-				   </div>
-			  		<div class="col-lg-6 col-sm-12">
-		       			<div class="row">
-							&nbsp;
-						</div>
-				   </div>
+				           		<div class="col-sm-12 col-lg-6">Gandalf</div>
+				           		<div class="col-sm-4 col-lg-2">Magicien</div>
+				                <div class="col-sm-4 col-lg-2">2</div>
+				           		<div class="col-sm-4 col-lg-2">100%</div>
 
-	       		  <div class="col-lg-6 col-sm-12">
-						<div class="row">
+				           		<div class="col-sm-12 col-lg-6">Gimil</div>
+				           		<div class="col-sm-4 col-lg-2">Nain</div>
+				                <div class="col-sm-4 col-lg-2">1</div>
+				           		<div class="col-sm-4 col-lg-2">100%</div>
+
+				                <div class="col-sm-12 col-lg-6">Lagolas</div>
+				           		<div class="col-sm-4 col-lg-2">Elfe</div>
+				                <div class="col-sm-4 col-lg-2">1</div>
+				           		<div class="col-sm-4 col-lg-2">100%</div>
+				           		<div class="col-lg-12"> &nbsp; </div>
+				           		<div class="col-lg-12"> &nbsp; </div>
+				           	</div>
+				        </div>
+					<div class="col-lg-6 col-sm-12">
+					    <div class="row">
+		
+					       	<div class="col-sm-12 col-lg-12">Monstres :</div>
+			            	
+			           		<div class="col-sm-12 col-lg-6"><strong>Nom</strong></div>
+			           		<div class="col-sm-4 col-lg-2"><strong>Type</strong></div>
+			                <div class="col-sm-4 col-lg-2"><strong>Niveau</strong></div>
+			           		<div class="col-sm-4 col-lg-2"><strong>Vie</strong></div>
+
+			           		<div class="col-sm-12 col-lg-6">Sarouman </div>
+			           		<div class="col-sm-4 col-lg-2">Magicien </div>
+			                <div class="col-sm-4 col-lg-2">1</div>
+			           		<div class="col-sm-4 col-lg-2">100%</div>
+
+			           		<div class="col-sm-12 col-lg-6">Sauran </div>
+			           		<div class="col-sm-4 col-lg-2">Bigboss </div>
+			                <div class="col-sm-4 col-lg-2">1</div>
+			           		<div class="col-sm-4 col-lg-2">100% </div>
+
+			           		<div class="col-sm-12 col-lg-6">Rougerrabbit </div>
+			           		<div class="col-sm-4 col-lg-2">Lapin </div>
+			                <div class="col-sm-4 col-lg-2">1 </div>
+			           		<div class="col-sm-4 col-lg-2">100% </div>
+			           	</div>
+			        </div>
+		    	</div>
 
 
-					  		<div class="col-lg-12 col-sm-12">
-						       	<p><button type="button" class="btn btn"> Action 3 </button><strong>Gandalf</strong> attaque <strong>Sarouman</strong></p>
-						       	<h5>Coup porté : <strong>25</strong></h5>
-						    </div>
 
-				       </div>
-				   </div>
-			  		<div class="col-lg-6 col-sm-12">
-		       			<div class="row">
-							&nbsp;
-						</div>
-				   </div>
+	
+					      </div>
+
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+						       	<p><button type="button" class="btn btn btn-contour collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Action 3 </button> <strong>Gandalf</strong> attaque <strong>Sarouman</strong></p>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body">
+	
+
+
+
+			       	<h5>Coup porté : <strong>25</strong></h5>
+	                <div class="row"> 
+				  	  	<div class="col-lg-6 col-sm-12">       		
+			  				<div class="row">
+				           		<div class="col-sm-12 col-lg-12">Héros :</div>
+				            
+				           		<div class="col-sm-12 col-lg-6"><strong>Nom</strong></div>
+				           		<div class="col-sm-4 col-lg-2"><strong>Type</strong></div>
+				                <div class="col-sm-4 col-lg-2"><strong>Niveau</strong></div>
+				           		<div class="col-sm-4 col-lg-2"><strong>Vie</strong></div>
+
+				           		<div class="col-sm-12 col-lg-6">Gandalf</div>
+				           		<div class="col-sm-4 col-lg-2">Magicien</div>
+				                <div class="col-sm-4 col-lg-2">2</div>
+				           		<div class="col-sm-4 col-lg-2">100%</div>
+
+				           		<div class="col-sm-12 col-lg-6">Gimil</div>
+				           		<div class="col-sm-4 col-lg-2">Nain</div>
+				                <div class="col-sm-4 col-lg-2">1</div>
+				           		<div class="col-sm-4 col-lg-2">100%</div>
+
+				                <div class="col-sm-12 col-lg-6">Lagolas</div>
+				           		<div class="col-sm-4 col-lg-2">Elfe</div>
+				                <div class="col-sm-4 col-lg-2">1</div>
+				           		<div class="col-sm-4 col-lg-2">100%</div>
+				           		<div class="col-lg-12"> &nbsp; </div>
+				           		<div class="col-lg-12"> &nbsp; </div>
+				           	</div>
+				        </div>
+					<div class="col-lg-6 col-sm-12">
+					    <div class="row">
+		
+					       	<div class="col-sm-12 col-lg-12">Monstres :</div>
+			            	
+			           		<div class="col-sm-12 col-lg-6"><strong>Nom</strong></div>
+			           		<div class="col-sm-4 col-lg-2"><strong>Type</strong></div>
+			                <div class="col-sm-4 col-lg-2"><strong>Niveau</strong></div>
+			           		<div class="col-sm-4 col-lg-2"><strong>Vie</strong></div>
+
+			           		<div class="col-sm-12 col-lg-6">Sarouman </div>
+			           		<div class="col-sm-4 col-lg-2">Magicien </div>
+			                <div class="col-sm-4 col-lg-2">1</div>
+			           		<div class="col-sm-4 col-lg-2">100%</div>
+
+			           		<div class="col-sm-12 col-lg-6">Sauran </div>
+			           		<div class="col-sm-4 col-lg-2">Bigboss </div>
+			                <div class="col-sm-4 col-lg-2">1</div>
+			           		<div class="col-sm-4 col-lg-2">100% </div>
+
+			           		<div class="col-sm-12 col-lg-6">Rougerrabbit </div>
+			           		<div class="col-sm-4 col-lg-2">Lapin </div>
+			                <div class="col-sm-4 col-lg-2">1 </div>
+			           		<div class="col-sm-4 col-lg-2">100% </div>
+			           	</div>
+			        </div>
+		    	</div>
+
+
+
+
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+
+
 					    
 	       		  <div class="col-lg-12 col-sm-12 epilogue">
 			    <h1>Fin de combat</h1>
@@ -163,7 +295,7 @@
 	<?php include("includes/page-footer.php"); ?>
 
 
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
