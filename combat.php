@@ -37,7 +37,7 @@
 
 					         <p><button type="button" class="btn btn btn-contour"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Action 1</button><strong>
 			       	Gandalf</strong> attaque <strong>Sarouman</strong></p>
-					        </button>
+
 
 					    </div>
 
