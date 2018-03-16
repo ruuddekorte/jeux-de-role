@@ -23,9 +23,98 @@
 	<main>
 	    <section id="body-content">
 
-			<h1>Le choc des Simploniens !</h1>
-		        
-		    <pre>
+			<h1>Le Déroulement du combat!</h1>
+		       	<p><button type="button" class="btn btn"> Action 1</button><strong>
+		       	Gandalf attaque Sarouman</strong></p>
+		       	<h5>Coup porté : 25</h5>
+       
+		            <div class="row"> 
+		           		
+		  <dir class="row"><div class="col-lg-6 col-sm-12">
+		           		<div class="col-sm-12 col-lg-12">Héros :</div>
+		            
+		           		<div class="col-sm-12 col-lg-6">Nom :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Type :<br /></div>
+		                <div class="col-sm-4 col-lg-2">Niveau :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Vie :<br /></div>
+
+		           		<div class="col-sm-12 col-lg-6">Gandalf :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Magicien :<br /></div>
+		                <div class="col-sm-4 col-lg-2">2 :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">100% :<br /></div>
+
+		           		<div class="col-sm-12 col-lg-6">Gimil :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Nain :<br /></div>
+		                <div class="col-sm-4 col-lg-2">1 :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">100% :<br /></div>
+
+		                <div class="col-sm-12 col-lg-6">Lagolas :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Elfe :<br /></div>
+		                <div class="col-sm-4 col-lg-2">1 :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">100% :<br /></div>
+		           		<div class="col-lg-12"> &nbsp; </div>
+		           		<div class="col-lg-12"> &nbsp; </div>
+
+		  </dir>
+		  <div class="col-lg-6 col-sm-12">
+				    
+				    
+				       	<div class="col-sm-12 col-lg-12">Monstres :</div>
+		            	
+		           		<div class="col-sm-12 col-lg-6">Nom :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Type :<br /></div>
+		                <div class="col-sm-4 col-lg-2">Niveau :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">Vie :<br /></div>
+
+		           		<div class="col-sm-12 col-lg-6">Sarouman <br /></div>
+		           		<div class="col-sm-4 col-lg-2">Magicien <br /></div>
+		                <div class="col-sm-4 col-lg-2">1 :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">100% :<br /></div>
+
+		           		<div class="col-sm-12 col-lg-6">Sauran <br /></div>
+		           		<div class="col-sm-4 col-lg-2">Bigboss <br /></div>
+		                <div class="col-sm-4 col-lg-2">1 :<br /></div>
+		           		<div class="col-sm-4 col-lg-2">100% <br /></div>
+
+		           		<div class="col-sm-12 col-lg-6">Rougerrabbit <br /></div>
+		           		<div class="col-sm-4 col-lg-2">Lapin <br /></div>
+		                <div class="col-sm-4 col-lg-2">1 <br /></div>
+		           		<div class="col-sm-4 col-lg-2">100% <br /></div>
+		           	</div>
+		        </div>
+		  		  <div class="col-lg-6 col-sm-12">
+
+		           		<p><button type="button" class="btn btn"> Action 2</button><strong>
+				        Sarouman attaque Gandalf</strong></p>
+				       	<h5>Coup porté : 25</h5>
+				       </div>
+				       		  <div class="col-lg-6 col-sm-12">
+
+		           		<p><button type="button" class="btn btn"> Action 2</button><strong>
+				        Sarouman attaque Gandalf</strong></p>
+				       	<h5>Coup porté : 25</h5>
+				       	<p><button type="button" class="btn btn"> Action 2</button><strong>
+				         Gandalf attaque Sarouman</strong><button type="button" class="btn btn">Sarouman Meurt</button></p>
+				       	<h5>Coup porté : 25</h5>
+				    </div>
+											    
+
+
+				       	<p><button type="button" class="btn btn"> Action 2</button><strong>
+				         Gandalf attaque Sarouman</strong><button type="button" class="btn btn">Sarouman Meurt</button></p>
+				       	<h5>Coup porté : 25</h5>
+				    
+				    
+
+
+
+		    <h1>Fin de combat</h1>
+		    <div></div>
+		    <h1> Victoir !<br/> L'ennemi est vaincu .</h1>
+		 </section>
+
+
+<!-- 
 Déroulé du combat
 A CTION 1
 Gandalf attaque Sarouman
@@ -41,8 +130,8 @@ A CTION 2 Gandalf attaque Sarouman
 S AROUMAN MEURT
 Fin du combat
 Victoire !
-L’ennemi est vaincu.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit
+L’ennemi est vaincu. -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit
 molestie dolor at euismod. Donec quis nisi ut ipsum ultricies
 molestie. Integer vitae leo lobortis, ullamcorper odio id, tristique elit.
 Suspendisse pharetra metus in est venenatis, eu mattis magna
@@ -56,11 +145,11 @@ tristique, dignissim iaculis eros. Etiam vitae porttitor metus. Donec ac
 nunc odio. Suspendisse potenti. Maecenas elementum, orci at
 lobortis ornare, enim dui pulvinar lectus, a blandit mauris enim
 efficitur sapien. Donec ex turpis, egestas et sodales vel, faucibus ac
-neque.
+neque.</p>
 
-		     </pre>
+		  
 
-	    </section>
+	    
 	</main>
 
     <!-- Le pied de page -->
