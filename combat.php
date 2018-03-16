@@ -20,7 +20,8 @@
     
     <!-- Le corps de page -->
 
-	<main>
+	<main class="row">
+	    <div class="col-lg-12 col-sm-12 banner img-combat"></div>
 	    <section id="body-content">
 
 			<h1>Le choc des Simploniens !</h1>
