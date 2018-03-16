@@ -3,7 +3,7 @@
 <!-- ########## HEADER ########## -->
 	<header class="row headermiddle">
 			<div class="col-lg-1 col-md-1 col-sm-2">
-				<img src="img/logo.png" height=50px width=50px>
+				<a href="index.php"><img src="img/logo.png"></a>
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-6 align-middle">
 				<h1> Simplon War</h1>  

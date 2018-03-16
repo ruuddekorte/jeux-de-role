@@ -20,6 +20,7 @@
     <!-- Le corps de page -->
 
 <main class="row">
+    <div class="col-lg-12 col-sm-12 banner img-equipe"></div>
 	  <div class="col-lg-12 col-sm-12 page-header">
   		  <h1>Créez vos équipes</h1>
     </div> 
